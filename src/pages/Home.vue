@@ -78,9 +78,26 @@ export default {
     width: 100%;
     height: 40px;
     margin-top: -30px;
+    padding-top: 10px;
     text-align: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
   
+  @media screen and (max-width: 800px){
+    img {
+      max-height: 300px;
+      width: 350px;
+    }
+
+    .lista-filmes article a {
+      font-size: 20px;
+    }
+
+    #home {
+    width: 100%;
+  }
+
+  }
+
 </style>

@@ -100,5 +100,27 @@ export default {
     color: #FFF;
   }
 
+  @media screen and (max-width: 800px){ 
+
+  ul li img {
+    width: 150px;
+    margin: 2px;
+  }
+
+  span {
+    font-size: 18px;
+  }
+
+  button {
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  }
+
 
 </style>
